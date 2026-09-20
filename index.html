@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dota 2 Hub</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-content">
+        <a href="#" class="logo">DOTA HUB</a>
+        <nav class="nav">
+          <a href="#heroes">Герои</a>
+          <a href="#guides">Гайды</a>
+          <a href="#news">Новости</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-content">
+          <h1>Добро пожаловать в мир Dota 2</h1>
+          <p>Всё для игроков: герои, билды, гайды, новости и статистика.</p>
+          <!-- Кнопка теперь ведёт в Steam -->
+          <a href="https://store.steampowered.com/app/570/Dota_2/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Начать играть</a>
+        </div>
+      </section>
+
+      <section id="heroes" class="section">
+        <div class="container">
+          <h2>Популярные герои</h2>
+          <div class="cards-grid">
+
+            <a href="https://www.dota2.com/heroes?l=russian" class="card-link-wrapper" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+              <div class="card">
+                <img src="images/antimage.webp" alt="Anti-Mage" class="card-image">
+                <h3>Anti-Mage</h3>
+                <p>Быстрый керри с уклонением и мощным уроном по магам.</p>
+              </div>
+            </a>
+
+            <a href="https://www.dota2.com/heroes?l=russian" class="card-link-wrapper" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+              <div class="card">
+                <img src="images/pudge.jpg" alt="Pudge" class="card-image">
+                <h3>Pudge</h3>
+                <p>Мясник с хуком и огромным уроном в поздней игре.</p>
+              </div>
+            </a>
+
+            <a href="https://www.dota2.com/heroes?l=russian" class="card-link-wrapper" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+              <div class="card">
+                <img src="images/invoker.jpg" alt="Invoker" class="card-image">
+                <h3>Invoker</h3>
+                <p>Сложный герой с десятками комбинаций заклинаний.</p>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="guides" class="section bg-dark">
+        <div class="container">
+          <h2>Гайды для новичков</h2>
+          <ul class="guides-list">
+            <li><a href="#">Как фармить и не умирать</a></li>
+            <li><a href="#">Предметы для ранней игры</a></li>
+            <li><a href="#">Роли и позиции в Dota 2</a></li>
+            <li><a href="#">Карта и тайминги крипов</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="news" class="section">
+        <div class="container">
+          <h2>Последние новости</h2>
+
+          <article class="news-item">
+            <div class="news-meta">
+              <span class="news-date">15.09.2026</span>
+              <span class="news-category">Патч</span>
+            </div>
+            <h3>Патч 7.41f: новые предметы и баланс героев</h3>
+            <p class="news-teaser">Valve выпустила крупный патч с изменениями экономики и механики предметов. В игру добавлены два новых нейтральных предмета, переработаны тайминги рун и скорректированы характеристики 15 героев.</p>
+            <a href="https://www.dota2.com/patches/7.41f" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Читать далее</a>
+          </article>
+
+          <article class="news-item">
+            <div class="news-meta">
+              <span class="news-date">13.08.2026</span>
+              <span class="news-category">Турнир</span>
+            </div>
+            <h3>The International 2026: даты и формат</h3>
+            <p class="news-teaser">Объявлены даты проведения главного турнира года и правила квалификации для команд. Призовой фонд превысил 2 миллиона долларов, а групповой этап пройдёт в формате double elimination.</p>
+            <a href="https://dota2.ru/esport/tournament/1109-the-international-2026/?ysclid=mua54bp0iy733733857" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Читать далее</a>
+          </article>
+
+          <article class="news-item">
+            <div class="news-meta">
+              <span class="news-date">19.09.2025</span>
+              <span class="news-category">Обновление</span>
+            </div>
+            <h3>Новый интерфейс и улучшенная статистика</h3>
+            <p class="news-teaser">В клиенте Dota 2 появилось обновлённое меню профиля, улучшенная система статистики по ролям и переработанный чат с фильтрами по типам сообщений.</p>
+            <a href="https://dota2.ru/updates/67959-v-dota-2-obnovili-lokalizaciu-sposobnostej-i-predmetov/?ysclid=mua52queeu296451364" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Читать далее</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>&copy; 2025 Dota Hub. Не является официальным сайтом Valve.</p>
+        <div class="socials">
+          <a href="#">VK</a>
+          <a href="#">Telegram</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
